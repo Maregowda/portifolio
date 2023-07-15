@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maregowda</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/397c388256.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/log.png" alt="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portifolio">Portifolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Developer</p>
+                <h1>Hi, I'm <span>Maregowda</span><br> From Bengaluru</h1>
+            </div>
+        </div>
+    </div> 
+    <!-- Aboutpage -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/profile.jpeg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>I am 2021 engineering graduated from Tumkur, currently working as a Software Engineer at wipro. with over 2 year of experience under my belt, I have gained a deep understanding of Full Stack Developement. I am certified in Cloud Technologies like Microsoft Azure and also gained deep knowledge in Data Structures and Algorithms, Design Patterns, Low Level Design and High Level Design. One of my key strength is my ability to solve complex problems and find effective solutions. I have honed my analytical skills through my experience <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I am exited to share my journey with you and looking forward to connecting with like-minded individuals who share a similar passion</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills" id="Skills">
+                        <ul>
+                            <li><span>Frontend Developement</span> <br> Web app Developement - HTML, CSS, Javascript, React JS, React Redux</li>
+                            <li><span>Backend Developement</span> <br> Java, Springboot and Microservices</li>
+                            <li><span>Data Enginner</span> <br> SQL, Data Architect, Data analytics, Data Migration Expert, VB Script</li>
+                            <li><span>Freelancer</span> <br> Website Design, wordpress, shopify</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>2021-Current</span> <br> Software Engineer at WIPRO</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2015 - 2017</span> <br>Pre-University College at Siddhaganga Boys College - Tumkur</li>
+                            <li><span>2017 - 2021</span> <br>Bachelour Of Engineering at Sri Siddhartha Institute Of Technology</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <!-- Servies -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Website Developement</h2>
+                    <p>Need a website that doesn't look like it's from the 90s? Let us help you create a website or redesign one that stands out from the competition.</p>
+                    <a href="http://www.linkedin.com/in/maregowda-c-b320031bb">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-chalkboard"></i>
+                    <h2>Mentor</h2>
+                    <p>Need to learn coding and be a pro programmer to stand out in competition? let me help you to grasp good knowledge in Java basics, OOPS, DSA</p>
+                    <a href="http://www.linkedin.com/in/maregowda-c-b320031bb">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portifolio -->
+    <div id="portifolio">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/SaraEcom.JPG" alt="">
+                    <div class="layer">
+                        <h3>Cloth Shopping Website</h3>
+                        <p>This is a online cloth shopping website. which helps to the owners to do Home Delivery</p>
+                        <a href="https://saraecom.000webhostapp.com/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/ecom.JPG" alt="">
+                    <div class="layer">
+                        <h3>Ecommerce Full Stack Website</h3>
+                        <p>This is a Full Stack Ecommerce Application which helps people to order from home</p>
+                        <a href="https://github.com/Maregowda/springboot-ecommerce-application-full-stack"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/Flight-Reservation.JPG" alt="">
+                    <div class="layer">
+                        <h3>Flight Reservation Website</h3>
+                        <p>This is a Full stack Application in which springboot as backend and React as front end and using MY SQL database</p>
+                        <a href="https://github.com/Maregowda/Flight-Reservation-Application"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/TacoShop.JPG" alt="">
+                    <div class="layer">
+                        <h3>The Little Taco shop</h3>
+                        <p>This is a online Food deliverable website which contains rich in HTML and CSS</p>
+                        <a href="https://github.com/Maregowda/The-Little-Taco-Shop"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/ImgApp.png" alt="">
+                    <div class="layer">
+                        <h3>Image Gallery</h3>
+                        <p>This is Java backend website which helps to upload the images and add favorite</p>
+                        <a href="https://github.com/Maregowda/Image-Storing-Application"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/GBlog.jpg" alt="">
+                    <div class="layer">
+                        <h3>G - Blogs</h3>
+                        <p>Established a visually captivating blog management system, enabling users to create, delete, and search blogs</p>
+                        <a href="https://github.com/Maregowda/Movie_App"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/Maregowda" class="btn">See more</a>
+        </div>
+    </div>
+<!-- Contact page -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> maregowdac6979@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +91 9886979812</p>
+                    <div class="social-icons">
+                        <a href="https://leetcode.com/maregowdac/"><i class="fa-solid fa-laptop-code"></i></a>
+                        <a href="https://instagram.com/maregowdas?igshid=ZGUzMzM3NWJiOQ=="><i class="fa-brands fa-instagram"></i></a>
+                        <a href="http://www.linkedin.com/in/maregowda-c-b320031bb"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://github.com/Maregowda"><i class="fa-brands fa-github"></i></i></a>
+                    </div>
+                    <a href="https://drive.google.com/file/d/1BEH1pr1mMMiomU_pYycWjYYTDAkm6SNC/view" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form onsubmit="sendEmail()">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright©2023 Gowda. HTML, CSS, Javascript Portifolio template. Made with <i class="fa-sharp fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+
+    <!-- Script -->
+ <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+ </script> 
+ <script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+ </script>
+  
+ <script>
+    function sendEmail(){
+        alert("500-Internal Server Error\nwe are keen to connect with you \nplease mail to \nmaregowdac6979@gmail.com")
+        form.reset();
+    }
+ </script>
+ 
+</body>
+</html>
